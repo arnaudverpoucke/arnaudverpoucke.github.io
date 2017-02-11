@@ -44,7 +44,7 @@ border-top: 1px solid white;
 
 
 .dikkerand{
-	border: 20px solid blue;
+	border: 20px solid black;
 	border-radius: 10px 10px 10px 0px;
 }
 
@@ -75,7 +75,7 @@ background-color: #2E3233;
 }
 
 #navigatiebalk h2{
-	color: yellow;
+	color: white;
 	margin-left: 30px;
 }
 
