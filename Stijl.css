@@ -7,7 +7,7 @@ body{
 
 #wrapper{
 background-color: white;
-width: 1350px;
+width: 1000px;
 height: 1500px ;
 margin: 0 auto;
 }
@@ -16,9 +16,9 @@ margin: 0 auto;
 #header{
 background-color: white;
 background-image: url("https://github.com/arnaudverpoucke/arnaudverpoucke.github.io/blob/master/logo_digitalentertainment.JPG?raw=true");
-background-size: 635px 90px;
+background-size: 420px 60px;
 background-repeat: no-repeat;
-height: 90px;
+height: 60px;
 border-top: 1px solid white;
 }
 
@@ -33,13 +33,13 @@ border-top: 1px solid white;
 #tabmenu ul{
 	list-style: none;
 	display: flex;
-	margin-left:650px;
-	margin-bottom: 40px;
+	margin-left:440px;
+	margin-bottom: 20px;
 }
 
 
-.dunneVierkantRand{
-	border:4px solid black;
+.dunnerand1{
+	border:2px solid black;
 }
 
 
@@ -49,7 +49,7 @@ border-top: 1px solid white;
 
 #sectie1{
 background-color: yellow;
-width: 1350px;
+width: 1000px;
 height: 200px ;
 margin: 0px;
 padding-top: 1px;
@@ -63,11 +63,12 @@ padding-top: 1px;
 background-color: white;
 margin: 0px;
 padding-top: 0px;
-height: 400px;
+height: 300px;
 }
 
-#navigatiebalk nav{
 
+#navigatiebalk nav{
+margin-top: 20px;
 width: 240px;
 height: 800px;
 background-color: #2E3233;
@@ -83,3 +84,113 @@ background-color: #2E3233;
 
 }
 
+
+
+.kaderklein1{
+	margin-top: 20px;
+
+	border: 5px solid black;
+	display: inline-block;
+
+	height: 410px;
+	width: 300px;
+
+	margin-right: 20px;
+	}
+
+
+
+.kaderklein1 h1{
+	font-size: 30px;
+	padding: 20px;
+	margin: 0px;
+	
+}
+
+.kaderklein1 p1{
+	font-size: 15px;
+
+	
+}
+
+
+
+.kadergroot1{
+	margin-top: 20px;
+
+	border: 5px solid black;
+	display: inline-block;
+
+	height: 410px;
+	width: 660px;
+
+	float: right;
+	}
+
+
+.kadergroot1 h1{
+	font-size: 30px;
+	padding: 20px;
+	margin: 0px;
+	background-color: black;
+	color: white;
+	
+}
+
+.kadergroot1 p1{
+	font-size: 15px;
+}
+
+.kadergroot2{
+	margin-top: 20px;
+
+	border: 5px solid black;
+	display: inline-block;
+
+	height: 260px;
+	width: 660px;
+
+	}
+
+
+.kadergroot2 h1{
+	font-size: 30px;
+	padding: 20px;
+	margin: 0px;
+	background-color: black;
+	color: white;
+	
+}
+
+.kadergroot2 p1{
+	font-size: 15px;
+	
+}
+
+.kaderklein2{
+	margin-top: 20px;
+
+	border: 5px solid black;
+	display: inline-block;
+
+	height: 260px;
+	width: 300px;
+
+	margin-left: 20px;
+	float: right;
+	}
+
+
+
+.kaderklein2 h1{
+	font-size: 30px;
+	padding: 20px;
+	margin: 0px;
+	
+	
+}
+
+
+.kaderklein2 p1{
+	font-size: 15px;
+}
