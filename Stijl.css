@@ -48,7 +48,7 @@ border-top: 1px solid white;
 }
 
 #sectie1{
-background-color: yellow;
+background-color: black;
 width: 1000px;
 height: 200px ;
 margin: 0px;
@@ -56,7 +56,9 @@ padding-top: 1px;
 }
 
 #sectie1 h1{
+	color: white;
 padding-top: 1px;
+margin-left: 20px;
 }
 
 #fotosectie1{
@@ -71,11 +73,11 @@ height: 300px;
 margin-top: 20px;
 width: 240px;
 height: 800px;
-background-color: #2E3233;
+background-color: #E6E6E6;
 }
 
 #navigatiebalk h2{
-	color: white;
+	color: black;
 	margin-left: 30px;
 }
 
@@ -92,7 +94,7 @@ background-color: #2E3233;
 	border: 5px solid black;
 	display: inline-block;
 
-	height: 410px;
+	height: 298px;
 	width: 300px;
 
 	margin-right: 20px;
@@ -121,7 +123,7 @@ background-color: #2E3233;
 	border: 5px solid black;
 	display: inline-block;
 
-	height: 410px;
+	height: 298px;
 	width: 660px;
 
 	float: right;
@@ -147,7 +149,7 @@ background-color: #2E3233;
 	border: 5px solid black;
 	display: inline-block;
 
-	height: 260px;
+	height: 188px;
 	width: 660px;
 
 	}
@@ -173,7 +175,7 @@ background-color: #2E3233;
 	border: 5px solid black;
 	display: inline-block;
 
-	height: 260px;
+	height: 188px;
 	width: 300px;
 
 	margin-left: 20px;
@@ -193,4 +195,47 @@ background-color: #2E3233;
 
 .kaderklein2 p1{
 	font-size: 15px;
+}
+
+
+
+
+#preload{
+	height: 100%;
+	width:100%;
+	background: white;
+	position: fixed;
+	left: 0;
+	top:0;
+	opacity: 1;
+}
+
+
+
+#spinner{
+    width: 80px;
+    height: 80px;
+    
+    border: 2px solid #f3f3f3;
+    border-top:3px solid black;
+    border-radius: 100%;
+    
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin: auto;
+
+    
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
